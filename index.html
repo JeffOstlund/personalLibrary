@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <title>Personal Library</title>
     <link rel="stylesheet" href="styles/index.css">
+    <script src="javascript/app.js"></script>
   </head>
   <body>
     <h2>Personal Library</h2>
-    <table>
-      <tr>
-        <th scope="col">Title</th>
+    
+    <table id="bookTable">
+      <tr class="header">
+        <th scope="col">Title <input type="text" id="tableInput" onkeyup="searchTable()" placeholder="Search Library..."></th>
         <th scope="col">Author</th>
         <th scope="col">Copyright</th>
         <th scope="col">Subject</th>

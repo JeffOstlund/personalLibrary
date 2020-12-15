@@ -11,7 +11,8 @@ h2 {
   font-size: 50px;
   color: #B88746;
   box-shadow: inset 60px 0 100px #191919,
-    inset -60px 0 100px #B88746;
+    inset -60px 0 100px #B88746,
+    0px 0px 10px 10px #191919;
 }
 
 table {
@@ -19,15 +20,26 @@ table {
   background-color: #191919;
   font-size: 40px;
   border: 5px solid #B88746;
-  width: 80%;
+  width: 90%;
   margin: auto;
   /* border-collapse: collapse; */
   box-shadow: 0px 0px 10px 10px #FDF5A6;
 }
 
 td {
+  padding: 5px;
+  letter-spacing: .4px;
   font-size: 25px;
   border: 1px solid #B88746;
   height: 25px;
+}
+
+#tableInput {
+  margin-left: 10%;
+  width: 20%;
+  font-size: 20px;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #B88746;
+  margin-bottom: 10px;
 }
 
